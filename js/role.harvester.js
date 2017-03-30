@@ -21,5 +21,5 @@ module.exports.run = function(creep) {
     }
 }
 module.exports.build = function(spawn) {
-  spawn.createCreep([WORK,CARRY,MOVE], undefined, {role: 'harvester'});
+  return spawn.createCreep([WORK,CARRY,MOVE], undefined, {role: 'harvester'});
 }
