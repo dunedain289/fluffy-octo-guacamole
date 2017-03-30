@@ -1,3 +1,3 @@
 module.exports.loop = function() {
-  console.log("this working?");
+  console.log("how quick on the updates?");
 }
